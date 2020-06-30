@@ -1,0 +1,263 @@
+html, body {
+    background-color: #f9f9f9;
+}
+
+
+/* 네비 */
+.nav {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.nav ul {
+    margin-right: 300px;
+}
+
+.nav ul li {
+    display: block;
+    float: right;
+    padding: 0 16px;
+    margin: 8px 0;
+    border-right: 1px solid #878787;
+}
+
+.nav .nav_li_1 {
+    border: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #878787;
+    font-size: 0.8em;
+}
+
+.nav li:hover {
+    color: #000000;
+    font-weight: bolder;
+}
+
+.nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* 타이틀 */
+.title {
+    border-bottom: 1px solid #E0E0E0;
+    display: block;
+}
+
+.tt {
+    float: right;
+    position: relative;
+    left: -50%;
+}
+
+.title .logo, .title .search_icon, .title .search_text_box {
+    float: left;
+    margin: 16px 4px;
+    position: relative;
+    left: 50%;
+
+}
+
+.title .logo h3 a {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #492BFA;
+}
+
+.title .search_icon i {
+    font-size: 2em;
+    font-weight: lighter;
+    color: #492BFA;
+}
+
+.title .search_text_box input {
+    height: 2.5em;
+    border: none;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #492BFA;
+}
+
+.title .search_text_box input:focus {
+    outline: none;
+}
+
+.title::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* 메뉴바 */
+.menubar {
+    border-bottom: 1px solid #E0E0E0;
+    background-color: #f9f9f9;
+    display: block;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+    /* box-shadow: 0px 5px 10px 0px lightgray; */
+}
+
+.menubar ul {
+    float: right;
+    position: relative;
+    left: -50%;
+}
+
+.menubar ul li {
+    float: left;
+    padding: 0 100px;
+    margin: 16px 0;
+    position: relative;
+    left: 50%;
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    font-size: 1.4em;
+    color: #646464;
+}
+
+.menubar .menu_li_1:hover a{
+    color: #492BFA;
+}
+
+.menubar .menu_li_2:hover a{
+    color: #4CE033;
+}
+
+.menubar .menu_li_3:hover a{
+    color: #FA2BB6;
+}
+
+.menubar::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* main */
+.main {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.mmm {
+    width: 900px;
+    /* margin-left: 300px;
+    margin-right: 300px; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mmm .mm_tt {
+    margin: 32px 0 24px 0;
+}
+
+.mmm .mm_tt h3 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.mmm .mm_lg .id, .mmm .mm_lg .pass{
+    border: none;
+    background-color: #f9f9f9;
+    padding: 16px;
+    margin: 12px 0;
+    width: 500px;
+    border-bottom: 1px solid lightgray;
+}
+
+.mmm .mm_lg .ok {
+    margin: 16px 0 24px;
+    padding: 12px 16px;
+    font-weight: bold;
+    font-size: 1.2em;
+    border: none;
+    background-color: #551DEB;
+    color: whitesmoke;
+    width: 500px;
+    cursor: pointer;
+}
+
+.mmm .mm_lg .id:focus, .mmm .mm_lg .pass:focus, .mmm .mm_lg .ok:focus {
+    outline: none;
+}
+
+.mm_bd {
+    margin: 0 auto;
+    width: 500px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.mm_bd {
+    border-bottom: 1px solid #E0E0E0;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.mm_find ul {
+    float: right;
+    position: relative;
+    left: -50%;
+}
+
+.mm_find ul li {
+    float: left;
+    padding: 0 16px;
+    margin: 16px 0;
+    position: relative;
+    left: 50%;
+    border-right: 1px solid #878787;
+}
+
+.mm_find ul li a {
+    text-decoration: none;
+    color: #878787;
+    font-size: 0.8em;
+}
+
+.mm_find .find_3 {
+    border: none;
+}
+
+.mm_find li:hover {
+    color: #000000;
+    font-weight: bolder;
+}
+
+.mm_find::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.other .other1, .other .other2 {
+    width: 500px;
+    margin: 24px auto;
+    box-shadow: 0px 5px 10px 0px lightgrey;
+}
+
+.other1 input, .other2 input {
+    width: 436px;
+    height: 64px;
+    background-color: #ffffff;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    padding: 16px;
+}
+
+.other1 input:focus, .other2 input:focus {
+    outline: none;
+}
+
+.other img {
+    width: 64px;
+}

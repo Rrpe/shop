@@ -1,0 +1,375 @@
+html, body {
+    background-color: #f9f9f9;
+}
+
+
+/* 네비 */
+.nav {
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.nav ul {
+    margin-right: 300px;
+}
+
+.nav ul li {
+    display: block;
+    float: right;
+    padding: 0 16px;
+    margin: 8px 0;
+    border-right: 1px solid #878787;
+}
+
+.nav .nav_li_1 {
+    border: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #878787;
+    font-size: 0.8em;
+}
+
+.nav li:hover {
+    color: #000000;
+    font-weight: bolder;
+}
+
+.nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* 타이틀 */
+.title {
+    border-bottom: 1px solid #E0E0E0;
+    display: block;
+}
+
+.tt {
+    float: right;
+    position: relative;
+    left: -50%;
+}
+
+.title .logo, .title .search_icon, .title .search_text_box {
+    float: left;
+    margin: 16px 4px;
+    position: relative;
+    left: 50%;
+
+}
+
+.title .logo h3 a {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #492BFA;
+}
+
+.title .search_icon i {
+    font-size: 2em;
+    font-weight: lighter;
+    color: #492BFA;
+}
+
+.title .search_text_box input {
+    height: 2.5em;
+    border: none;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #492BFA;
+}
+
+.title .search_text_box input:focus {
+    outline: none;
+}
+
+.title::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* 메뉴바 */
+.menubar {
+    border-bottom: 1px solid #E0E0E0;
+    background-color: #f9f9f9;
+    display: block;
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+    /* box-shadow: 0px 5px 10px 0px lightgray; */
+}
+
+.menubar ul {
+    float: right;
+    position: relative;
+    left: -50%;
+}
+
+.menubar ul li {
+    float: left;
+    padding: 0 100px;
+    margin: 16px 0;
+    position: relative;
+    left: 50%;
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    font-size: 1.4em;
+    color: #646464;
+}
+
+.menubar .menu_li_1:hover a{
+    color: #492BFA;
+}
+
+.menubar .menu_li_2:hover a{
+    color: #4CE033;
+}
+
+.menubar .menu_li_3:hover a{
+    color: #FA2BB6;
+}
+
+.menubar::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* main */
+.mmain {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.mmain .hh {
+    margin: 32px 16px 16px ;
+}
+
+.mmain .hh h3 {
+    color: #646464;
+}
+
+.ss_uu .left{
+    width: 150px;
+    height: 52px;
+    background-color: lightgray;
+}
+
+.ss_uu .r1 {
+    width: 250px;
+    height: 30px;
+    margin: 10px 10px 10px 10px;
+    padding: 4px;
+}
+
+.ss_uu .r1:focus {
+    outline: none;
+}
+
+.mmain h4 {
+    padding: 18px 14px;
+    color: #646464;
+    font-size: 0.9em;
+    font-weight: 500;
+    text-align: left;
+}
+
+.mmain h5 {
+    padding: 20px;
+    color: #646464;
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+/* s_1 */
+.ss_uu .s_1 .left {
+    float: left;
+    display: block;
+}
+
+.ss_uu .s_1 .right {
+    float: left;
+    display: block;
+}
+
+.s_1::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* s_2 */
+.ss_uu .s_2 .left {
+    float: left;
+    display: block;
+}
+
+.ss_uu .s_2 .right {
+    float: left;
+    display: block;
+}
+
+.s_2::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* s_3 */
+.ss_uu .s_3 .left {
+    float: left;
+    display: block;
+}
+
+.ss_uu .s_3 .right {
+    float: left;
+    display: block;
+}
+
+.s_3::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* s_4 */
+.ss_uu .s_4 .left {
+    float: left;
+    display: block;
+}
+
+.ss_uu .s_4 .right {
+    float: left;
+    display: block;
+}
+
+.s_4::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* s_5 */
+.ss_uu .s_5 .left {
+    float: left;
+    display: block;
+}
+
+.ss_uu .s_5 .right {
+    float: left;
+    display: block;
+}
+
+.s_5::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* s_6 */
+.ss_uu .s_6 .left {
+    float: left;
+    display: block;
+}
+
+.ss_uu .s_6 .right {
+    float: left;
+    display: block;
+}
+
+.ss_uu .s_6 .r1 {
+    width: 70px;
+}
+
+.s_6::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* s_7 */
+.ss_uu .s_7 .left {
+    float: left;
+    display: block;
+}
+
+.ss_uu .s_7 .right {
+    float: left;
+    display: block;
+}
+
+.ss_uu .s_7 .r1 {
+    width: 70px;
+}
+
+.s_7::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* s_8 */
+.ss_uu .s_8 .left {
+    float: left;
+    display: block;
+}
+
+.ss_uu .s_8 .adr2 {
+    float: left;
+    display: block;
+}
+
+.ss_uu .s_8 .adr3 {
+    float: left;
+    display: block;
+}
+
+.ss_uu .s_8 .right .r1 {
+    width: 125px;
+}
+
+.ss_uu .s_8 .right .upb {
+    margin: 2px 0 0 0;
+    width: 110px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #444444;
+}
+
+.s_8::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.s_1, .s_2, .s_3, .s_4, .s_5, .s_6, .s_7, .s_8 {
+    border-top: 1px solid #979797;
+}
+
+.ss_btn {
+    border-top: 1px solid #979797;
+    text-align: center;
+}
+
+.ss_btn .ok {
+    margin: 20px 0;
+    padding: 12px 20px;
+    border: none;
+    background-color: #492BFA;
+    color: whitesmoke;
+    font-weight: 550;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.ss_btn .ok:focus {
+    outline: none;
+}
